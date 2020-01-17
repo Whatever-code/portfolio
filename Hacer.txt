@@ -1,0 +1,2 @@
+agregar con js <span class="sr-only">(current)</span> al a correspondiente a la pestaña actual 
+para marcar posicion en el menu

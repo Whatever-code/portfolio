@@ -1,0 +1,48 @@
+<div class="row" style="margin-top: 0.7rem">
+    <div class="col s12 m4 left">
+        <h4>Info Contact</h4>
+        <div class="divider"></div>
+        <h5>Phone:</h5>
+        <p>+549376-4721581</p>
+        <h5>Email:</h5>
+        <p>lucianodente152@gmail.com</p>
+
+    </div>
+    <div class="col s12 m6 right">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Contact Us</span>
+                <div class="divider"></div>
+                <div class="row">
+                    <form class="col s12" action="Contact/Send" method="POST">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate" required>
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate" required>
+                                <label for="last_name">Last Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="phone" type="text" class="validate">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea validate" required></textarea>
+                                <label for="textarea1">Textarea</label>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
