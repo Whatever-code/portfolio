@@ -14,30 +14,30 @@
                 <span class="card-title">Contact Us</span>
                 <div class="divider"></div>
                 <div class="row">
-                    <form class="col s12" action="Contact/Send" method="POST">
+                    <form class="col s12" action="Contact" method="post">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input id="first_name" type="text" class="validate" required>
+                                <input name="firstname" type="text" class="validate" required>
                                 <label for="first_name">First Name</label>
                             </div>
                             <div class="input-field col s6">
-                                <input id="last_name" type="text" class="validate" required>
+                                <input name="lastname" type="text" class="validate" required>
                                 <label for="last_name">Last Name</label>
                             </div>
                             <div class="input-field col s12">
-                                <input id="phone" type="text" class="validate">
+                                <input name="phone" type="text" class="validate">
                                 <label for="phone">Phone</label>
                             </div>
                             <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
+                                <input name="email" type="email" class="validate">
                                 <label for="email">Email</label>
                             </div>
                             <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea validate" required></textarea>
+                                <textarea name="message" class="materialize-textarea validate" required></textarea>
                                 <label for="textarea1">Textarea</label>
                             </div>
                         </div>
-                        <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+                        <button class="btn waves-effect waves-light right" type="submit">Submit
                             <i class="material-icons right">send</i>
                         </button>
                     </form>
